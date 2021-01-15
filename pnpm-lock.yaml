@@ -5,6 +5,7 @@ dependencies:
 devDependencies:
   '@babel/core': 7.12.10
   '@babel/preset-env': 7.12.11_@babel+core@7.12.10
+  '@types/gh-pages': 3.0.0
   '@types/html-webpack-plugin': 3.2.4
   '@types/regenerator-runtime': 0.13.0
   '@types/webpack-merge': 4.1.5
@@ -984,6 +985,10 @@ packages:
     dev: true
     resolution:
       integrity: sha512-jnqIUKDUqJbDIUxm0Uj7bnlMnRm1T/eZ9N+AVMqhPgzrba2GhGG5o/jCTwmdPK709nEZsGoMzXEDUjcXHa3W0g==
+  /@types/gh-pages/3.0.0:
+    dev: true
+    resolution:
+      integrity: sha512-bWEiIqN0WSUQhUZXaaCVIRXdomjQCX9mCNLo6kGSML8VuiH5DXoiNOkXmxrJyrzMQmcV67JloDksM1I3WoVHhQ==
   /@types/glob/7.1.3:
     dependencies:
       '@types/minimatch': 3.0.3
@@ -6196,6 +6201,7 @@ packages:
 specifiers:
   '@babel/core': ^7.12.10
   '@babel/preset-env': ^7.12.11
+  '@types/gh-pages': ^3.0.0
   '@types/html-webpack-plugin': ^3.2.4
   '@types/regenerator-runtime': ^0.13.0
   '@types/webpack-merge': ^4.1.5
