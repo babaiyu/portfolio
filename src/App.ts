@@ -1,19 +1,21 @@
 import NavbarApp from './components/Navbar';
-import {funToggleDark} from './functions/index';
+import {funToggleDark, funToggleMenu} from './functions/index';
 
 const container: HTMLElement = document.getElementById('app');
 
 const main = () => {
-  // Component
+  // Component order by ascending
   container.innerHTML += NavbarApp({
-    title: 'Babaiyu',
+    title: 'BABAIYU',
   });
 
   // Function for trigger event
   document.addEventListener('DOMContentLoaded', () => {
     const toggleDark = document.getElementById('toggleDark');
-
     toggleDark.addEventListener('click', funToggleDark);
+
+    const hamburger = document.getElementById('hamburgerbtn');
+    hamburger.addEventListener('click', funToggleMenu);
   });
 
   // Dark Mode Configuration

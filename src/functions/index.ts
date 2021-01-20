@@ -1,4 +1,4 @@
-const funToggleDark = () => {
+export const funToggleDark = () => {
   let htmlClass = document.querySelector('html').classList;
   if (localStorage.theme === 'dark') {
     htmlClass.remove('dark');
@@ -9,4 +9,7 @@ const funToggleDark = () => {
   }
 };
 
-export {funToggleDark};
+export const funToggleMenu = () => {
+  const mobileMenu = document.getElementById('mobileMenu');
+  mobileMenu.classList.toggle('active');
+};
