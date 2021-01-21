@@ -1,4 +1,5 @@
 import NavbarApp from './components/Navbar';
+import Jumbroton from './components/Jumbroton';
 import {funToggleDark, funToggleMenu} from './functions/index';
 
 const container: HTMLElement = document.getElementById('app');
@@ -8,6 +9,8 @@ const main = () => {
   container.innerHTML += NavbarApp({
     title: 'BABAIYU',
   });
+
+  container.innerHTML += Jumbroton();
 
   // Function for trigger event
   document.addEventListener('DOMContentLoaded', () => {
