@@ -11,12 +11,6 @@ const NavbarApp = (props: Props) => {
     </div>
     <ul class="hidden md:flex md:flex-row" id="mobileMenu">
       <li class="pr-5">
-        <a href="#" class="dark:text-white text-gray-900">About</a>
-      </li>
-      <li class="pr-5">
-        <a href="#" class="dark:text-white text-gray-900">Portfolio</a>
-      </li>
-      <li class="pr-5">
         <button id="toggleDark" class="dark:text-white text-gray-800">
           THEME
         </button>
