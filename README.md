@@ -2,7 +2,10 @@
 
 [website](http://babaiyu.vercel.app/)
 
-## Portfolio babaiyu is created using
+## Features:
+* Dark Mode
+
+## Portfolio babaiyu is created using:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Webpack](https://webpack.js.org/)
