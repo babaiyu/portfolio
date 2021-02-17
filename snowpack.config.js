@@ -11,6 +11,7 @@ module.exports = {
   },
   buildOptions: {
     baseUrl: '',
+    out: 'dist',
   },
   devOptions: {
     port: 3500,
