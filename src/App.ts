@@ -1,6 +1,7 @@
 import NavbarApp from './components/Navbar';
 import Jumbroton from './components/Jumbroton';
 import Profile from './components/Profile';
+import ListPict from './components/ListPict';
 import {funToggleDark, funToggleMenu} from './functions/index';
 
 const container: HTMLElement = document.getElementById('app');
@@ -13,6 +14,7 @@ const main = () => {
 
   container.innerHTML += Jumbroton();
   container.innerHTML += Profile();
+  container.innerHTML += ListPict();
 
   // Function for trigger event
   document.addEventListener('DOMContentLoaded', () => {

@@ -56,4 +56,9 @@ declare module '*.png' {
   export default ref;
 }
 
-/* CUSTOM: ADD YOUR OWN HERE */
+// JSON Import
+
+declare module '*.json' {
+  const value: any;
+  export default value;
+}
